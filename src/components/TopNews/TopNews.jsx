@@ -1,5 +1,6 @@
 import styles from "./TopNews.module.css";
-import { newsList } from "./newslist";
+// actionsで１回失敗した箇所。大文字小文字ミス
+import { newsList } from "./newsList";
 
 export default function TopNews() {
     return (
