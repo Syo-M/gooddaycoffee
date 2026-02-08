@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import Barista from "./pages/Barista";
 import Menu from "./pages/Menu";
 
-import Footer from "./components/layout/Footer";
+import Footer from "./components/layout/Footer/Footer";
 import Aside from "./components/layout/Aside/Aside";
 import Header from "./components/layout/Header/Header";
 
