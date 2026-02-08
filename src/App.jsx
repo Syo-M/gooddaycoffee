@@ -5,9 +5,10 @@ import Coffee from "./pages/Coffee";
 import Contact from "./pages/Contact";
 import Barista from "./pages/Barista";
 import Menu from "./pages/Menu";
-import Header from "./components/layout/Header";
+
 import Footer from "./components/layout/Footer";
-import Aside from "./components/layout/Aside";
+import Aside from "./components/layout/Aside/Aside";
+import Header from "./components/layout/Header/Header";
 
 function App() {
     return (
