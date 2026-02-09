@@ -24,8 +24,6 @@ export default function Top() {
             <TopSection />
             <TopShopList />
             <TopNews />
-
-            <div>Top</div>
         </>
     );
 }

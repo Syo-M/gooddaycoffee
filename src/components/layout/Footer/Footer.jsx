@@ -5,22 +5,16 @@ import logo from "@/assets/logo-white.svg";
 export default function Footer() {
     return (
         <footer className={styles.footer}>
-            <nav>
+            <nav className={styles.footerNavWrap}>
                 <ul className={styles.footerNav}>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/contact">お問い合わせ</Link>
                     </li>
                     <li>
-                        <Link to="/coffee">Coffee</Link>
+                        <Link to="/coffee">プライバシーポリシー</Link>
                     </li>
                     <li>
-                        <Link to="/barista">Barista</Link>
-                    </li>
-                    <li>
-                        <Link to="/menu">Menu</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/barista">会社概要</Link>
                     </li>
                 </ul>
             </nav>

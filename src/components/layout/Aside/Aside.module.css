@@ -1,5 +1,6 @@
 .aside {
     background-color: var(--subColor);
+    margin-block-start: 150px;
 }
 
 .inner {
@@ -23,7 +24,52 @@
 .snsList {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0;
+}
+
+.contactList {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactList li {
+    height: 100px;
+    line-height: 100px;
+    padding: 0 10px;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.contactList li:not(:last-child) {
+    border-right: 1px solid var(--textColor);
+    font-size: 30px;
+}
+
+.contactList .contactLink {
+    text-decoration: none;
+    color: var(--textColor);
+    position: relative;
+}
+
+.contactList .contactLink:after {
+    content: "";
+    display: block;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    width: 1em;
+    height: 0.5em;
+    position: absolute;
+    right: -20px;
+    top: 20%;
+    transform: skewX(45deg);
+    transition: 0.4s;
+}
+
+.contactList .contactLink:hover:after {
+    right: -30px;
 }
 
 .heading {

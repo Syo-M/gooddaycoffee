@@ -36,14 +36,10 @@ export default function Aside() {
 
                     <section className={styles.section}>
                         <h3 className={styles.heading}>CONTACT</h3>
-                        <ul className={styles.snsList}>
+                        <ul className={styles.contactList}>
+                            <li>06-4321-7654</li>
                             <li>
-                                <a href="#" target="_blank" className={styles.snsLink}>
-                                    06-4321-7654
-                                </a>
-                            </li>
-                            <li>
-                                <Link to="/contact" className={styles.snsLink} target="_blank">
+                                <Link to="/contact" className={styles.contactLink} target="_blank">
                                     お問い合わせ
                                 </Link>
                             </li>
@@ -51,7 +47,6 @@ export default function Aside() {
                     </section>
                 </div>
             </aside>
-            <div>Aside</div>
         </>
     );
 }
