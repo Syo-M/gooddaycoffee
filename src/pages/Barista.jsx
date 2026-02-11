@@ -1,3 +1,4 @@
+import BaristaSection from "../components/BaristaSection/BaristaSection";
 import CatchCopy from "../components/CatchCopy/CatchCopy";
 import { catchCopy } from "./list/catchCopy";
 
@@ -12,7 +13,8 @@ export default function Barista() {
                 fourth={catchCopy[2].fourthLine}
                 last={catchCopy[2].lastLine}
             />
-            <div>Barista</div>
+
+            <BaristaSection />
         </>
     );
 }
